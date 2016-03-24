@@ -16,9 +16,9 @@ public class Square extends Shape {
 		// TODO Return random color produce from java.util.Random;
 		// Java 'Color' class takes 3 floats, from 0 to 1.
 		Random ran = new Random();
-		int r = ran.nextInt(255);
-		int g = ran.nextInt(255);
-		int b = ran.nextInt(255);
+		int r = ran.nextInt(256);
+		int g = ran.nextInt(256);
+		int b = ran.nextInt(256);
 		
 		// TODO Return color produced by three rgb floats.
 		System.out.printf("%d %d %d\n",r,g,b);
@@ -49,6 +49,12 @@ public class Square extends Shape {
 	public int getCenterY(int mouseY) {
 		// TODO Input mouse Y position and return center Y of square
 		return mouseY - shapeWidth/2;
+	}
+
+
+	public void setLocation(int centerX, int centerY) {
+		// TODO Auto-generated method stub
+		
 	}
 
 
