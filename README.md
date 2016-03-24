@@ -9,9 +9,9 @@ SoftwareStudio Lab4 2016
 
 # 組員二
 
-姓名：
+姓名：鄭登淯
 
-學號：
+學號：102062324
 
 #Screenshot
 
